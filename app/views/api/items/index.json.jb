@@ -1,5 +1,6 @@
 @foods.map do |food|
   {
+    id: food.id,
     name: food.name,
     brand: food.brand,
     price: food.price,
