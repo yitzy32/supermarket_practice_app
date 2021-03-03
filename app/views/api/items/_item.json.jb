@@ -1,0 +1,8 @@
+{
+  id: food.id,
+  name: food.will_capitalize,
+  brand: food.brand,
+  price: food.price,
+  friendly_created_at: food.friendly_created_at,
+  friendly_updated_at: food.friendly_updated_at,
+}

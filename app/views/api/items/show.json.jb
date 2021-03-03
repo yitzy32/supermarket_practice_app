@@ -1,6 +1,8 @@
-{
-  id: @food.id,
-  name: @food.will_capitalize,
-  brand: @food.will_capitalize,
-  price: @food.price,
-}
+render partial: "item.json.jb", locals: { food: @food }
+
+# {
+#   id: @food.id,
+#   name: @food.will_capitalize,
+#   brand: @food.brand,
+#   price: @food.price,
+# }
