@@ -1,8 +1,1 @@
 render partial: "item.json.jb", locals: { food: @food }
-
-# {
-#   id: @food.id,
-#   name: @food.will_capitalize,
-#   brand: @food.brand,
-#   price: @food.price,
-# }

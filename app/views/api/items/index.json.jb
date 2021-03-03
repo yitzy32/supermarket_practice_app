@@ -1,11 +1,3 @@
 @foods.map do |food|
   render partial: "item.json.jb", locals: { food: food }
-  # {
-  #   id: food.id,
-  #   name: food.will_capitalize,
-  #   brand: food.brand,
-  #   price: food.price,
-  #   created_at: food.friendly_created_at,
-  #   updated_at: food.friendly_updated_at,
-  # }
 end
