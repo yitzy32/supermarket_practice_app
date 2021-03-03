@@ -19,6 +19,15 @@ class Api::ItemsController < ApplicationController
     render "show.json.jb"
   end
 
+  def update
+    @food = Food.find_by(id: params[:id])
+    @food.name = params[:name] || @food.name
+    @food.brand = params[:brand] || @food.brand
+    @food.price = params[:price] || @food.price
+    @food.save
+    render "show.json.jb"
+  end
+
   def destroy
     @food = Food.find_by(id: params[:id])
     @food.destroy
