@@ -1,0 +1,7 @@
+@foods.map do |food|
+  {
+    name: food.name,
+    brand: food.brand,
+    price: food.price,
+  }
+end
