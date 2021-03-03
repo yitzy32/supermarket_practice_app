@@ -1,6 +1,6 @@
 {
   id: @food.id,
-  name: @food.name,
-  brand: @food.brand,
+  name: @food.will_capitalize,
+  brand: @food.will_capitalize,
   price: @food.price,
 }

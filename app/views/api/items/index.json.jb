@@ -1,8 +1,10 @@
 @foods.map do |food|
   {
     id: food.id,
-    name: food.name,
+    name: food.will_capitalize,
     brand: food.brand,
     price: food.price,
+    created_at: food.friendly_created_at,
+    updated_at: food.friendly_updated_at,
   }
 end
